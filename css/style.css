@@ -1,0 +1,119 @@
+/* On enleve les formations standard */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font: 16px "Trebuchet MS", Helvetica, Sans-Serif;
+    background-color: #f3f3f3;
+}
+
+h2{
+    font-size: 1.5em;
+}
+
+p{
+    font-size: 0.9em;
+}
+
+/* ---------------- FORMATATION DU MENU --------------- */
+#navegation{
+    background-color: white;
+    height: 45px; 
+    border-bottom: 1px solid lightgray; 
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+
+#secteur{
+    width: 600px;
+    margin: 0 auto;
+}
+
+#logo{
+    font-weight: bold;
+    font-size: 1.5em;
+    float: left;
+    padding: 5px 0; 
+}
+
+#menu{
+    float: right;
+    padding: 12px 0; 
+}
+
+/* ---------------- LES POSTES ------------------- */
+#secteur-principal{
+    /*clear: both;*/
+    width: 600px;
+    margin: 55px auto 10px auto;
+    /*color: red;*/
+}
+
+.post{
+    background-color: #fff;
+    padding: 5px 2px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+
+.imgPost{
+    /*float: left;*/
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 200px;
+}
+
+.textImage{
+    /*margin-right: 5px; */
+    
+    /*position: relative;*/
+    /*display: block;*/
+}
+
+.posteEn{
+    border-bottom: 3px solid #f3f3f3;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+/* -------------------- D'AUTRES ---------------------- */
+.vert{
+    color:#b9c941;
+}
+
+.postePar{
+    border-left: 5px solid #d8d8d8;
+    padding-left: 5px;
+    display: block;
+    margin-top: 10px;
+}
+/* ---------------- LES HYPERLIENS ------------------- */
+a{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+a:link{
+    color: #838383;   
+}
+
+a:visited{
+    color: #838383; 
+}
+
+a:hover{
+    background-color: #b9c941;
+    color: white;
+}
+
+a:active{
+    color: #535353;
+}
+
+
+
